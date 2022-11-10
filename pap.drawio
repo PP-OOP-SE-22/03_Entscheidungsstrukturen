@@ -1,6 +1,35 @@
 <mxfile host="65bd71144e">
-    <diagram id="nLKA9d5DeGtWCZHH4f3R" name="Page-1">
-        <mxGraphModel dx="411" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram name="IF" id="GVOOk013WvEWHKtK-UwZ">
+        <mxGraphModel dx="610" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="4PT_I6anQslSJrOburF--0"/>
+                <mxCell id="4PT_I6anQslSJrOburF--1" parent="4PT_I6anQslSJrOburF--0"/>
+                <mxCell id="4PT_I6anQslSJrOburF--2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#FCD926;" edge="1" parent="4PT_I6anQslSJrOburF--1" source="4PT_I6anQslSJrOburF--3" target="4PT_I6anQslSJrOburF--7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4PT_I6anQslSJrOburF--3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4PT_I6anQslSJrOburF--1">
+                    <mxGeometry x="220" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4PT_I6anQslSJrOburF--4" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4PT_I6anQslSJrOburF--1">
+                    <mxGeometry x="220" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EFk6dUOs-8n4eU8mLTJk-0" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#60FC00;" edge="1" parent="4PT_I6anQslSJrOburF--1" source="4PT_I6anQslSJrOburF--7" target="4PT_I6anQslSJrOburF--11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4PT_I6anQslSJrOburF--7" value="a&amp;gt;b" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4PT_I6anQslSJrOburF--1">
+                    <mxGeometry x="240" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="EFk6dUOs-8n4eU8mLTJk-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#60FC00;" edge="1" parent="4PT_I6anQslSJrOburF--1" source="4PT_I6anQslSJrOburF--11" target="4PT_I6anQslSJrOburF--4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4PT_I6anQslSJrOburF--11" value="Anweisung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4PT_I6anQslSJrOburF--1">
+                    <mxGeometry x="220" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="nLKA9d5DeGtWCZHH4f3R" name="IF-ELSE">
+        <mxGraphModel dx="547" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
