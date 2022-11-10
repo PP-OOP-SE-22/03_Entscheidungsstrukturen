@@ -3,15 +3,15 @@
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assigment
-const ageJohn = 22;
-const ageMark = 30;
+// const ageJohn = 22;
+// const ageMark = 22;
 
 // Deklaration
-let isJohnOlder, isJohnEqual;
+// let isJohnOlder, isJohnEqual;
 
 // Test | Logische Aussage
-isJohnOlder = (ageJohn > ageMark);
-isJohnEqual = (ageJohn == ageMark);
+// isJohnOlder = (ageJohn > ageMark);
+// isJohnEqual = (ageJohn == ageMark);
 
 // // Ausgabe
 // console.log("ageJohn: " + ageJohn);
@@ -55,18 +55,48 @@ isJohnEqual = (ageJohn == ageMark);
 /************  Ternäre (ternary) Schreibweise ************/
 // console.log( (isJohnOlder) ? "John is older" : "Mark is older");
 
-if(isJohnOlder)
-{
-    // Ja-Zweig / true
-    console.log("John ist älter.");
-} 
-else if(isJohnEqual)
-{
-    console.log ("John ist gleich alt.");
-}
-else{
-    // Nein-Zweig / false
-    console.log("John ist jünger."); 
-}
+// if(isJohnOlder)
+// {
+//     // Ja-Zweig / true
+//     console.log("John ist älter.");
+// } 
+// else if(isJohnEqual)
+// {
+//     console.log ("John ist gleich alt.");
+// }
+// else{
+//     // Nein-Zweig / false
+//     console.log("John ist jünger."); 
 
 
+/********* Fallunterscheidung / Swich|Case 1**********/
+const firstName = "Jane";
+let job;
+
+job = "driver";     // .. fährt TAXI! / UBER
+job = "diver";      // .. taucht im Rhein!
+job = "artist";     // .. malt ein Bild!
+job = "pilot";      // .. macht etwas anderes! --> default
+job = "teacher";    // .. unterrichtet!
+job = "instructor";  // .. unterrichtet!
+
+switch (job) {
+    case "driver":
+        console.log( firstName + "fährt TAXI!" );
+        break;
+    case "diver":
+        console.log(firstName + " taucht im Rhein!");
+        break;
+    case "artist":
+        console.log(firstName + " malt ein Bild!");
+        break;
+    case "teacher":
+    case "instructor":
+        console.log(firstName + " unterrichtet!");
+        break;        
+
+        
+    default:
+        console.log(firstName + " macht etwas anderes!" );
+        break;
+}
