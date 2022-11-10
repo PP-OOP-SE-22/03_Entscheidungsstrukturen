@@ -24,20 +24,37 @@ isJohnEqual = (ageJohn == ageMark);
 // TINA --> there is no alternativ
 // entweder JA oder nix ... alternativlos
 
-if(true)
-if(false) 
-// if(isJohnOlder)
-if(ageJohn > ageMark)
-{
-    console.log("John ist älter.")
-}
+// if(true)
+// if(false) 
+// // if(isJohnOlder)
+// if(ageJohn > ageMark)
+// {
+//     console.log("John ist älter.")
+// }
 
-/************ IF - ELSE  ************/
-// mit Alternative  
-// entweder ja oder nein
+// /************ IF - ELSE  ************/
+// // mit Alternative  
+// // entweder ja oder nein
 
 // if (true)
 // if (false)
+// if(isJohnOlder)
+// {
+//     // Ja-Zweig / true
+//     console.log("John ist älter.");
+// } 
+// else 
+// {
+//     // Nein-Zweig / false
+//     console.log("John ist jünger."); 
+// }
+
+//     // Nein-Zweig / false
+//     console.log("John ist jünger."); 
+
+/************  Ternäre (ternary) Schreibweise ************/
+// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
 if(isJohnOlder)
 {
     // Ja-Zweig / true
@@ -51,6 +68,3 @@ else
 
     // Nein-Zweig / false
     console.log("John ist jünger."); 
-}
-/************  Ternäre (ternary) Schreibweise ************/
-// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
