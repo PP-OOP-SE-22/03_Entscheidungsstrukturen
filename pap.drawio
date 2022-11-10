@@ -96,7 +96,7 @@
                 <mxCell id="d6PyxFRDkyVTr6aN996G-18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#5EF700;fillColor=#60a917;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-12" target="d6PyxFRDkyVTr6aN996G-4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="d6PyxFRDkyVTr6aN996G-12" value="John ist älter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                <mxCell id="d6PyxFRDkyVTr6aN996G-12" value="&quot;John ist älter&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
                     <mxGeometry x="220" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="d6PyxFRDkyVTr6aN996G-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FCD926;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-13">
@@ -107,7 +107,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="d6PyxFRDkyVTr6aN996G-13" value="&quot;Jahn ist gleich alt&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                <mxCell id="d6PyxFRDkyVTr6aN996G-13" value="&quot;John ist gleich alt&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
                     <mxGeometry x="390" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="d6PyxFRDkyVTr6aN996G-17" value="Ja" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FCD926;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-16" target="d6PyxFRDkyVTr6aN996G-13">
