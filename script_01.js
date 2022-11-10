@@ -24,10 +24,10 @@ isJohnEqual = (ageJohn == ageMark);
 // TINA --> there is no alternativ
 // entweder JA oder nix ... alternativlos
 
-// if(true)
-// if(false) 
-// // if(isJohnOlder)
-// if(ageJohn > ageMark)
-// {
-//     console.log("John ist älter.")
-// }
+if(true)
+if(false) 
+// if(isJohnOlder)
+if(ageJohn > ageMark)
+{
+    console.log("John ist älter.")
+}
