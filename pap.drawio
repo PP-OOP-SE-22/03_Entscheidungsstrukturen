@@ -29,7 +29,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="nLKA9d5DeGtWCZHH4f3R" name="IF-ELSE">
-        <mxGraphModel dx="547" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="610" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -62,6 +62,77 @@
                 </mxCell>
                 <mxCell id="11" value="Anweisung2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="340" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="ELSE-IF" id="IamenQk3VCVrSdej8tsi">
+        <mxGraphModel dx="949" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-0"/>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-1" parent="d6PyxFRDkyVTr6aN996G-0"/>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#FA9400;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-3" target="d6PyxFRDkyVTr6aN996G-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="220" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-4" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="220" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-5" value="Ja" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#5FFA00;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-7" target="d6PyxFRDkyVTr6aN996G-12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-15" value="Nein" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FC0000;fillColor=#e51400;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-7" target="d6PyxFRDkyVTr6aN996G-16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="472" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-7" value="&quot;ist J. älter&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="240" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#5EF700;fillColor=#60a917;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-12" target="d6PyxFRDkyVTr6aN996G-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-12" value="John ist älter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="220" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FCD926;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="510" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-13" value="&quot;Jahn ist gleich alt&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="390" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-17" value="Ja" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FCD926;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-16" target="d6PyxFRDkyVTr6aN996G-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-26" value="Nein" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.575;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;fillColor=#e51400;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-16" target="d6PyxFRDkyVTr6aN996G-22">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="599" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-16" value="&quot;ist J. gleich alt&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="410" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FC0000;fillColor=#e51400;" edge="1" parent="d6PyxFRDkyVTr6aN996G-1" source="d6PyxFRDkyVTr6aN996G-22">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="550" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="590" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d6PyxFRDkyVTr6aN996G-22" value="&quot;J. ist jünger&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="d6PyxFRDkyVTr6aN996G-1">
+                    <mxGeometry x="530" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
